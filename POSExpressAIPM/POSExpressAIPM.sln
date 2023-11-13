@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "posexpress.Presentacion", "posexpress.Presentacion", "{DB352A17-0E0A-48FD-BB5C-F1A5E48A7522}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "posexpress.API", "posexpress.API", "{7D3A9DB9-89F2-46D7-877E-F1DDAFD9B023}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POSExpress.Presentacion", "POSExpress.Presentacion\POSExpress.Presentacion.csproj", "{A93AFCC3-B514-48D8-A546-E91A7F947B93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WApiPosExpress", "WApiPosExpress\WApiPosExpress.csproj", "{73BA6BDC-6581-44D5-978C-E1FAB21FE71F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WApiPosExpress.Datos", "WApiPosExpress.Datos", "{336B2D13-1C2D-4F67-BF75-E807BAF847A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WApiPosExpress.Datos", "WApiPosExpress.Datos\WApiPosExpress.Datos.csproj", "{3664D5FA-97C9-488B-85B1-EC3A45BBB941}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A93AFCC3-B514-48D8-A546-E91A7F947B93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A93AFCC3-B514-48D8-A546-E91A7F947B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A93AFCC3-B514-48D8-A546-E91A7F947B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A93AFCC3-B514-48D8-A546-E91A7F947B93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73BA6BDC-6581-44D5-978C-E1FAB21FE71F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73BA6BDC-6581-44D5-978C-E1FAB21FE71F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73BA6BDC-6581-44D5-978C-E1FAB21FE71F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73BA6BDC-6581-44D5-978C-E1FAB21FE71F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3664D5FA-97C9-488B-85B1-EC3A45BBB941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3664D5FA-97C9-488B-85B1-EC3A45BBB941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3664D5FA-97C9-488B-85B1-EC3A45BBB941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3664D5FA-97C9-488B-85B1-EC3A45BBB941}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A93AFCC3-B514-48D8-A546-E91A7F947B93} = {DB352A17-0E0A-48FD-BB5C-F1A5E48A7522}
+		{73BA6BDC-6581-44D5-978C-E1FAB21FE71F} = {7D3A9DB9-89F2-46D7-877E-F1DDAFD9B023}
+		{336B2D13-1C2D-4F67-BF75-E807BAF847A4} = {7D3A9DB9-89F2-46D7-877E-F1DDAFD9B023}
+		{3664D5FA-97C9-488B-85B1-EC3A45BBB941} = {336B2D13-1C2D-4F67-BF75-E807BAF847A4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D545BFB-7553-4BF2-931C-26FE56495E59}
+	EndGlobalSection
+EndGlobal
